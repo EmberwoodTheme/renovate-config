@@ -12,8 +12,8 @@ env:
 jobs:
   shared-presets:
     runs-on: ubuntu-latest
-    env: 
-      FILES: "default.json whiskers.json5 .github/renovate.json"
+    env:
+      FILES: "default.json kindling.json5 .github/renovate.json"
     steps:
       - uses: actions/checkout@v4
       - run: echo $FILES | xargs npx --package renovate@${{env.RENOVATE_VERSION}} -- renovate-config-validator

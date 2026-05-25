@@ -3,7 +3,7 @@
   "packageRules": [
     {
       "matchDepNames": [
-        "catppuccin/whiskers"
+        "EmberwoodTheme/kindling"
       ],
       "prBodyNotes": [
         "> [!IMPORTANT]\n> **You do not have to merge this Pull Request.** You can view the latest features and bug fixes by clicking the dropdown under the **Release Notes** section.",
@@ -20,7 +20,7 @@
       "matchStrings": [
         'version: "?(?<currentValue>[^"\n]*)"?'
       ],
-      "depNameTemplate": "catppuccin/whiskers",
+      "depNameTemplate": "EmberwoodTheme/kindling",
       "extractVersionTemplate": "^v?(?<version>.*)$",
       "versioningTemplate": "cargo",
       "datasourceTemplate": "github-tags"
@@ -31,9 +31,9 @@
         "^.*.yml$"
       ],
       "matchStrings": [
-        'whiskers-version: "?(?<currentValue>[^"\n]*)"?'
+        'kindling-version: "?(?<currentValue>[^"\n]*)"?'
       ],
-      "depNameTemplate": "catppuccin/whiskers",
+      "depNameTemplate": "EmberwoodTheme/kindling",
       "extractVersionTemplate": "^v?(?<version>.*)$",
       "versioningTemplate": "cargo",
       "datasourceTemplate": "github-tags"
